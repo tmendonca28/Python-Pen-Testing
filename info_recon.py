@@ -14,7 +14,7 @@ req = requests.get("https://" + sys.argv[1])
 print("\n"+str(req.headers))
 
 # IP
-gethostby_ = socket.gethostbyname(sys.argv(1))
+gethostby_ = socket.gethostbyname(sys.argv[1])
 print("\nThe IP address of " + sys.argv[1] + " is: " + gethostby_ + "\n")
 
 # ipinfo.io for iplookup
